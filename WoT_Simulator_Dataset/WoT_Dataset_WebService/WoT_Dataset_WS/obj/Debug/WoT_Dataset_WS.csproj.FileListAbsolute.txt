@@ -1,0 +1,10 @@
+c:\users\mina\documents\visual studio 2010\Projects\WoT_Dataset_WS\WoT_Dataset_WS\obj\Debug\ResolveAssemblyReference.cache
+c:\users\mina\documents\visual studio 2010\Projects\WoT_Dataset_WS\WoT_Dataset_WS\bin\WoT_Dataset_WS.dll
+c:\users\mina\documents\visual studio 2010\Projects\WoT_Dataset_WS\WoT_Dataset_WS\bin\WoT_Dataset_WS.pdb
+c:\users\mina\documents\visual studio 2010\Projects\WoT_Dataset_WS\WoT_Dataset_WS\obj\Debug\WoT_Dataset_WS.dll
+c:\users\mina\documents\visual studio 2010\Projects\WoT_Dataset_WS\WoT_Dataset_WS\obj\Debug\WoT_Dataset_WS.pdb
+C:\WoT Testbed\WoT_Dataset_WS\WoT_Dataset_WS\bin\WoT_Dataset_WS.dll
+C:\WoT Testbed\WoT_Dataset_WS\WoT_Dataset_WS\bin\WoT_Dataset_WS.pdb
+C:\WoT Testbed\WoT_Dataset_WS\WoT_Dataset_WS\obj\Debug\ResolveAssemblyReference.cache
+C:\WoT Testbed\WoT_Dataset_WS\WoT_Dataset_WS\obj\Debug\WoT_Dataset_WS.dll
+C:\WoT Testbed\WoT_Dataset_WS\WoT_Dataset_WS\obj\Debug\WoT_Dataset_WS.pdb

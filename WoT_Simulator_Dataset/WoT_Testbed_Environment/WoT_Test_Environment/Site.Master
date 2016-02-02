@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WoT_Test_Environment.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>  Web of Things Testbed </title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            display: block;
+            float: left;
+            text-align: center;
+            width: auto;
+        }
+        .style3
+        {
+            clear: both;
+            text-align: center;
+        }
+ p.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+        .style4
+        {
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+    <div class="page" style="border: thin solid #C0C0C0; background-color: #333333">
+        <div class="header">
+            <div class="title">
+                <h1 class="style2" title="Web of Things Testbed (WoTT)" style="color: #FF9933">
+                    Web of Things Testbed
+                </h1>
+            </div>
+            <div class="loginDisplay" style="background-image: url('/Resources/Main.png')">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink" 
+                style="background-image: url('/Resources/Main.png')">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                    EnableViewState="False" Orientation="Horizontal" 
+                    DynamicHorizontalOffset="2" Font-Bold="False" Font-Italic="False" 
+                    Font-Names="Vrinda" Font-Overline="False" Font-Size="Large" 
+                    Font-Underline="True" ForeColor="Aqua" ItemWrap="True" 
+                    StaticSubMenuIndent="10px">
+                    <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#F7F6F3" />
+                    <DynamicSelectedStyle BackColor="#5D7B9D" />
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
+                    </Items>
+                    <StaticHoverStyle BackColor="#5088A8" Font-Bold="True" 
+                        Font-Names="Arial Unicode MS" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="#5D7B9D" />
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main" 
+            
+            
+            style="border: thin groove #CCCCCC; padding: inherit; margin: inherit; color: #CC3300; background-color: #000000; overflow: auto;">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="style3" style="background-color: #000000">
+            <br />
+            <span class="style4">Copyrights </span><span class="style4" 
+                style="line-height: 115%; mso-ascii-theme-font: major-bidi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: major-bidi; mso-bidi-theme-font: major-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-no-proof: yes">
+            © Reserved for Authors of&nbsp; the paper titled</span><span style="font-size:10.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-bidi;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
+major-bidi;mso-bidi-theme-font:major-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA;mso-no-proof:yes"><br />
+&nbsp;<p align="center" class="MsoNormal" 
+                style="text-align: center; font-variant: small-caps; letter-spacing: .25pt; font-weight: bold;">
+                <span style="font-size:14.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ascii-theme-font:major-bidi;mso-hansi-theme-font:
+major-bidi;mso-bidi-theme-font:major-bidi">&quot; An Integrated Testbed Environment for The Web of 
+                Things &quot;</span></p>
+&nbsp;</span><span class="style4" 
+                style="line-height: 115%; mso-ascii-theme-font: major-bidi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: major-bidi; mso-bidi-theme-font: major-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-no-proof: yes">- 
+            Published in IARIA Conference - Italy - 2015<br />
+            <br />
+            </span>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

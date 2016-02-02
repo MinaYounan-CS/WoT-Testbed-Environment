@@ -1,0 +1,20 @@
+Notes:
+---------
+       IoT network implements star topology
+       IoT should have one coordinator and multiple router-devices or router devices and endpoint devices.
+---------------------------------------------------------------------------
+Steps:
+1- install chips (XBee) on XBee-USB-shield connected to PC 
+2- run X-CTU software
+3- select com port.
+4- select modem configuration
+5- load profile
+6- write firmware.
+---------------------------------------------------------------------------
+thanks for using our applications 
+for more details read the following papers and cite them: 
+1- M. Younan, S. Khattab, and R. Bahgat, "An Integrated Testbed Environment for the Web of Things," in ICNS 2015 : The Eleventh International Conference on Networking and Services, ISBN: 978-1-61208-404-6, Rome, Italy, May, 2015, pp. 69-78.
+2- M. Younan, S. Khattab, and R. Bahgat, "Evaluation of an Integrated Testbed Environment for The Web of Things," in IntSys15v8n34 : International Journal On Advances in Intelligent Systems, vol. 8, no. 3&4, Nov. 2015.
+
+
+ 

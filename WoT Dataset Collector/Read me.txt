@@ -1,0 +1,12 @@
+WoT testbed for dataset generation 
+---------------------------------------------------------------------------
+Steps
+1- use sql express 2008 create database entitled 'smart-home'
+2- burn codes for Arduino: download 'IoT_Arduinos_XBee'
+3- Write XBee firmware profiles
+4- Run DataSet Generator application
+---------------------------------------------------------------------------
+thanks for using our applications 
+for more details read the following papers and cite them: 
+1- M. Younan, S. Khattab, and R. Bahgat, "An Integrated Testbed Environment for the Web of Things," in ICNS 2015 : The Eleventh International Conference on Networking and Services, ISBN: 978-1-61208-404-6, Rome, Italy, May, 2015, pp. 69-78.
+2- M. Younan, S. Khattab, and R. Bahgat, "Evaluation of an Integrated Testbed Environment for The Web of Things," in IntSys15v8n34 : International Journal On Advances in Intelligent Systems, vol. 8, no. 3&4, Nov. 2015.

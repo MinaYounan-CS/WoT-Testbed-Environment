@@ -1,0 +1,16 @@
+c:\users\mina\documents\visual studio 2010\Projects\WoT_Test_Environment\WoT_Test_Environment\bin\WoT_Test_Environment.dll
+c:\users\mina\documents\visual studio 2010\Projects\WoT_Test_Environment\WoT_Test_Environment\bin\WoT_Test_Environment.pdb
+c:\users\mina\documents\visual studio 2010\Projects\WoT_Test_Environment\WoT_Test_Environment\obj\Debug\ResolveAssemblyReference.cache
+c:\users\mina\documents\visual studio 2010\Projects\WoT_Test_Environment\WoT_Test_Environment\obj\Debug\WoT_Test_Environment.dll
+c:\users\mina\documents\visual studio 2010\Projects\WoT_Test_Environment\WoT_Test_Environment\obj\Debug\WoT_Test_Environment.pdb
+C:\WoT Testbed\WoT_Test_Environment\WoT_Test_Environment\bin\WoT_Test_Environment.dll
+C:\WoT Testbed\WoT_Test_Environment\WoT_Test_Environment\bin\WoT_Test_Environment.pdb
+C:\WoT Testbed\WoT_Test_Environment\WoT_Test_Environment\obj\Debug\WoT_Test_Environment.dll
+C:\WoT Testbed\WoT_Test_Environment\WoT_Test_Environment\obj\Debug\WoT_Test_Environment.pdb
+C:\test\WoT_Test_Environment\WoT_Test_Environment\bin\WoT_Test_Environment.dll
+C:\test\WoT_Test_Environment\WoT_Test_Environment\bin\WoT_Test_Environment.pdb
+C:\test\WoT_Test_Environment\WoT_Test_Environment\obj\Debug\ResolveAssemblyReference.cache
+C:\test\WoT_Test_Environment\WoT_Test_Environment\obj\Debug\WoT_Test_Environment.dll
+C:\test\WoT_Test_Environment\WoT_Test_Environment\obj\Debug\WoT_Test_Environment.pdb
+C:\WoT Testbed\WoT_Test_Environment\WoT_Test_Environment\obj\Debug\WoT_Test_Environment.Properties.Resources.resources
+C:\WoT Testbed\WoT_Test_Environment\WoT_Test_Environment\obj\Debug\WoT_Test_Environment.csproj.GenerateResource.Cache
