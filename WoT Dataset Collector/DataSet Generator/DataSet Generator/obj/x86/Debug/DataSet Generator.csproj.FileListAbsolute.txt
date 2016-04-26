@@ -37,3 +37,6 @@ D:\GitHub\WoT Testbed\WoT Dataset Collector\DataSet Generator\DataSet Generator\
 D:\GitHub\WoT Testbed\WoT Dataset Collector\DataSet Generator\DataSet Generator\obj\x86\Debug\DataSet_Generator.Form1.resources
 D:\GitHub\WoT Testbed\WoT Dataset Collector\DataSet Generator\DataSet Generator\obj\x86\Debug\DataSet_Generator.Properties.Resources.resources
 D:\GitHub\WoT Testbed\WoT Dataset Collector\DataSet Generator\DataSet Generator\obj\x86\Debug\DataSet Generator.csproj.GenerateResource.Cache
+D:\GitHub\WoT\WoT Dataset Collector\DataSet Generator\DataSet Generator\bin\Debug\DataSet Generator.exe.config
+D:\GitHub\WoT\WoT Dataset Collector\DataSet Generator\DataSet Generator\obj\x86\Debug\DataSet Generator.exe
+D:\GitHub\WoT\WoT Dataset Collector\DataSet Generator\DataSet Generator\obj\x86\Debug\DataSet Generator.pdb
